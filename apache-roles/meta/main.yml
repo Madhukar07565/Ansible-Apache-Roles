@@ -1,0 +1,18 @@
+---
+galaxy_info:
+  author: Berry Langerak
+  description: 
+  company: Enrise
+  license: BSD
+  min_ansible_version: 1.2
+
+  platforms:
+  - name: Ubuntu
+    versions:
+    - trusty
+
+  categories:
+  - development
+  - web
+
+  dependencies: []
