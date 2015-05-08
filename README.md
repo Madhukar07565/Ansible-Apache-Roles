@@ -1,4 +1,4 @@
-# enrise.apache
+apache
 
 This is an Ansible task for installing and configuring Apache (2.4), as well as creating virtualhosts.
 
@@ -37,16 +37,9 @@ Next, you can include the role in your playbook:
       sudo: yes
       vars_files:
         - vars/apache.yml
-      roles:
-        - enrise.apache
+     
 
 There are a lot of config settings you can overwrite, but you'll have to refer to the files
 `defaults/main.yml` to see a list of variables and their description.
 
-## Licence
 
-MIT
-
-## Feedback? Found a bug? Requests?
-
-Let us have it! http://github.com/Enrise/ansible-role-apache/issues
